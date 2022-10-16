@@ -1,0 +1,42 @@
+.thing_panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+padding: 1em;
+margin: 1em;
+width: 400px;
+background-color: #e4afb0 ;
+border-radius: 15%;
+.t_name{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+    font-weight: bold;
+
+}
+.t_type{ font-size: 0.7em;
+    margin-bottom: 0.8em;}
+.t_desc{ font-size: 1em;
+    margin-bottom: 0.8em;
+   align-self: center;
+    padding: 0.5em;
+text-align: center;}
+button{
+    color: #fed7bf;
+    border-color: #fed7bf;
+}
+
+
+}
+
+@media screen and (min-width: 700px ){
+    .thing_panel{
+        width: 600px;
+    }
+}
+@media screen and (min-width: 1080px ){
+    .thing_panel{
+        width: 800px;
+    }
+}
